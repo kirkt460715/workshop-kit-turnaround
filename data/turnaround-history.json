@@ -1,0 +1,1157 @@
+{
+  "format_version": 1,
+  "requests": [
+    {
+      "id": "dem-0-0",
+      "date": "2026-08-01",
+      "procedure": "bread-fold-r0",
+      "group_size": 6,
+      "submitted": false,
+      "stock_limit": 8,
+      "requested": null,
+      "served": null,
+      "disposition": "cancelled",
+      "known_at": "2026-08-01T08:00:00"
+    },
+    {
+      "id": "dem-0-1",
+      "date": "2026-08-01",
+      "procedure": "bread-fold-r1",
+      "group_size": 14,
+      "submitted": false,
+      "stock_limit": 16,
+      "requested": null,
+      "served": null,
+      "disposition": "cancelled",
+      "known_at": "2026-08-01T08:00:00"
+    },
+    {
+      "id": "dem-0-2",
+      "date": "2026-08-01",
+      "procedure": "harvest-display",
+      "group_size": 22,
+      "submitted": false,
+      "stock_limit": 24,
+      "requested": null,
+      "served": null,
+      "disposition": "cancelled",
+      "known_at": "2026-08-01T08:00:00"
+    },
+    {
+      "id": "dem-1-0",
+      "date": "2026-08-02",
+      "procedure": "bread-fold-r0",
+      "group_size": 9,
+      "submitted": true,
+      "stock_limit": 16,
+      "requested": 7,
+      "served": 7,
+      "disposition": "held",
+      "known_at": "2026-08-02T08:00:00"
+    },
+    {
+      "id": "dem-1-1",
+      "date": "2026-08-02",
+      "procedure": "bread-fold-r1",
+      "group_size": 17,
+      "submitted": true,
+      "stock_limit": 24,
+      "requested": 8,
+      "served": 8,
+      "disposition": "held",
+      "known_at": "2026-08-02T08:00:00"
+    },
+    {
+      "id": "dem-1-2",
+      "date": "2026-08-02",
+      "procedure": "harvest-display",
+      "group_size": 25,
+      "submitted": true,
+      "stock_limit": 8,
+      "requested": 9,
+      "served": 8,
+      "disposition": "held",
+      "known_at": "2026-08-02T08:00:00"
+    },
+    {
+      "id": "dem-2-0",
+      "date": "2026-08-03",
+      "procedure": "bread-fold-r0",
+      "group_size": 12,
+      "submitted": true,
+      "stock_limit": 24,
+      "requested": 8,
+      "served": 8,
+      "disposition": "held",
+      "known_at": "2026-08-03T08:00:00"
+    },
+    {
+      "id": "dem-2-1",
+      "date": "2026-08-03",
+      "procedure": "bread-fold-r1",
+      "group_size": 20,
+      "submitted": true,
+      "stock_limit": 8,
+      "requested": 9,
+      "served": 8,
+      "disposition": "held",
+      "known_at": "2026-08-03T08:00:00"
+    },
+    {
+      "id": "dem-2-2",
+      "date": "2026-08-03",
+      "procedure": "harvest-display",
+      "group_size": 28,
+      "submitted": true,
+      "stock_limit": 16,
+      "requested": 10,
+      "served": 10,
+      "disposition": "held",
+      "known_at": "2026-08-03T08:00:00"
+    },
+    {
+      "id": "dem-3-0",
+      "date": "2026-08-04",
+      "procedure": "bread-fold-r0",
+      "group_size": 15,
+      "submitted": true,
+      "stock_limit": 8,
+      "requested": 9,
+      "served": 8,
+      "disposition": "held",
+      "known_at": "2026-08-04T08:00:00"
+    },
+    {
+      "id": "dem-3-1",
+      "date": "2026-08-04",
+      "procedure": "bread-fold-r1",
+      "group_size": 23,
+      "submitted": true,
+      "stock_limit": 16,
+      "requested": 10,
+      "served": 10,
+      "disposition": "held",
+      "known_at": "2026-08-04T08:00:00"
+    },
+    {
+      "id": "dem-3-2",
+      "date": "2026-08-04",
+      "procedure": "harvest-display",
+      "group_size": 7,
+      "submitted": true,
+      "stock_limit": 24,
+      "requested": 11,
+      "served": 11,
+      "disposition": "held",
+      "known_at": "2026-08-04T08:00:00"
+    },
+    {
+      "id": "dem-4-0",
+      "date": "2026-08-05",
+      "procedure": "bread-fold-r0",
+      "group_size": 18,
+      "submitted": true,
+      "stock_limit": 16,
+      "requested": 10,
+      "served": 10,
+      "disposition": "held",
+      "known_at": "2026-08-05T08:00:00"
+    },
+    {
+      "id": "dem-4-1",
+      "date": "2026-08-05",
+      "procedure": "bread-fold-r1",
+      "group_size": 26,
+      "submitted": true,
+      "stock_limit": 24,
+      "requested": 11,
+      "served": 11,
+      "disposition": "held",
+      "known_at": "2026-08-05T08:00:00"
+    },
+    {
+      "id": "dem-4-2",
+      "date": "2026-08-05",
+      "procedure": "harvest-display",
+      "group_size": 10,
+      "submitted": true,
+      "stock_limit": 8,
+      "requested": 12,
+      "served": 8,
+      "disposition": "held",
+      "known_at": "2026-08-05T08:00:00"
+    },
+    {
+      "id": "dem-5-0",
+      "date": "2026-08-06",
+      "procedure": "bread-fold-r0",
+      "group_size": 21,
+      "submitted": true,
+      "stock_limit": 24,
+      "requested": 11,
+      "served": 11,
+      "disposition": "held",
+      "known_at": "2026-08-06T08:00:00"
+    },
+    {
+      "id": "dem-5-1",
+      "date": "2026-08-06",
+      "procedure": "bread-fold-r1",
+      "group_size": 29,
+      "submitted": true,
+      "stock_limit": 8,
+      "requested": 12,
+      "served": 8,
+      "disposition": "held",
+      "known_at": "2026-08-06T08:00:00"
+    },
+    {
+      "id": "dem-5-2",
+      "date": "2026-08-06",
+      "procedure": "harvest-display",
+      "group_size": 13,
+      "submitted": true,
+      "stock_limit": 16,
+      "requested": 13,
+      "served": 13,
+      "disposition": "substituted",
+      "known_at": "2026-08-06T08:00:00"
+    },
+    {
+      "id": "dem-6-0",
+      "date": "2026-08-07",
+      "procedure": "bread-fold-r0",
+      "group_size": 24,
+      "submitted": true,
+      "stock_limit": 8,
+      "requested": 12,
+      "served": 8,
+      "disposition": "held",
+      "known_at": "2026-08-07T08:00:00"
+    },
+    {
+      "id": "dem-6-1",
+      "date": "2026-08-07",
+      "procedure": "bread-fold-r1",
+      "group_size": 8,
+      "submitted": true,
+      "stock_limit": 16,
+      "requested": 13,
+      "served": 13,
+      "disposition": "substituted",
+      "known_at": "2026-08-07T08:00:00"
+    },
+    {
+      "id": "dem-6-2",
+      "date": "2026-08-07",
+      "procedure": "harvest-display",
+      "group_size": 16,
+      "submitted": true,
+      "stock_limit": 24,
+      "requested": 14,
+      "served": 14,
+      "disposition": "held",
+      "known_at": "2026-08-07T08:00:00"
+    },
+    {
+      "id": "dem-7-0",
+      "date": "2026-08-08",
+      "procedure": "bread-fold-r0",
+      "group_size": 27,
+      "submitted": true,
+      "stock_limit": 16,
+      "requested": 13,
+      "served": 13,
+      "disposition": "substituted",
+      "known_at": "2026-08-08T08:00:00"
+    },
+    {
+      "id": "dem-7-1",
+      "date": "2026-08-08",
+      "procedure": "bread-fold-r1",
+      "group_size": 11,
+      "submitted": true,
+      "stock_limit": 24,
+      "requested": 14,
+      "served": 14,
+      "disposition": "held",
+      "known_at": "2026-08-08T08:00:00"
+    },
+    {
+      "id": "dem-7-2",
+      "date": "2026-08-08",
+      "procedure": "harvest-display",
+      "group_size": 19,
+      "submitted": true,
+      "stock_limit": 8,
+      "requested": 15,
+      "served": 8,
+      "disposition": "held",
+      "known_at": "2026-08-08T08:00:00"
+    },
+    {
+      "id": "dem-8-0",
+      "date": "2026-08-09",
+      "procedure": "bread-fold-r0",
+      "group_size": 6,
+      "submitted": true,
+      "stock_limit": 24,
+      "requested": 14,
+      "served": 14,
+      "disposition": "held",
+      "known_at": "2026-08-09T08:00:00"
+    },
+    {
+      "id": "dem-8-1",
+      "date": "2026-08-09",
+      "procedure": "bread-fold-r1",
+      "group_size": 14,
+      "submitted": true,
+      "stock_limit": 8,
+      "requested": 15,
+      "served": 8,
+      "disposition": "held",
+      "known_at": "2026-08-09T08:00:00"
+    },
+    {
+      "id": "dem-8-2",
+      "date": "2026-08-09",
+      "procedure": "harvest-display",
+      "group_size": 22,
+      "submitted": true,
+      "stock_limit": 16,
+      "requested": 16,
+      "served": 16,
+      "disposition": "held",
+      "known_at": "2026-08-09T08:00:00"
+    },
+    {
+      "id": "dem-9-0",
+      "date": "2026-08-10",
+      "procedure": "bread-fold-r0",
+      "group_size": 9,
+      "submitted": false,
+      "stock_limit": 8,
+      "requested": null,
+      "served": null,
+      "disposition": "cancelled",
+      "known_at": "2026-08-10T08:00:00"
+    },
+    {
+      "id": "dem-9-1",
+      "date": "2026-08-10",
+      "procedure": "bread-fold-r1",
+      "group_size": 17,
+      "submitted": false,
+      "stock_limit": 16,
+      "requested": null,
+      "served": null,
+      "disposition": "cancelled",
+      "known_at": "2026-08-10T08:00:00"
+    },
+    {
+      "id": "dem-9-2",
+      "date": "2026-08-10",
+      "procedure": "harvest-display",
+      "group_size": 25,
+      "submitted": false,
+      "stock_limit": 24,
+      "requested": null,
+      "served": null,
+      "disposition": "cancelled",
+      "known_at": "2026-08-10T08:00:00"
+    },
+    {
+      "id": "dem-10-0",
+      "date": "2026-08-11",
+      "procedure": "bread-fold-r0",
+      "group_size": 12,
+      "submitted": true,
+      "stock_limit": 16,
+      "requested": 16,
+      "served": 16,
+      "disposition": "held",
+      "known_at": "2026-08-11T08:00:00"
+    },
+    {
+      "id": "dem-10-1",
+      "date": "2026-08-11",
+      "procedure": "bread-fold-r1",
+      "group_size": 20,
+      "submitted": true,
+      "stock_limit": 24,
+      "requested": 17,
+      "served": 17,
+      "disposition": "held",
+      "known_at": "2026-08-11T08:00:00"
+    },
+    {
+      "id": "dem-10-2",
+      "date": "2026-08-11",
+      "procedure": "harvest-display",
+      "group_size": 28,
+      "submitted": true,
+      "stock_limit": 8,
+      "requested": 18,
+      "served": 8,
+      "disposition": "held",
+      "known_at": "2026-08-11T08:00:00"
+    },
+    {
+      "id": "dem-11-0",
+      "date": "2026-08-12",
+      "procedure": "bread-fold-r0",
+      "group_size": 15,
+      "submitted": true,
+      "stock_limit": 24,
+      "requested": 17,
+      "served": 17,
+      "disposition": "held",
+      "known_at": "2026-08-12T08:00:00"
+    },
+    {
+      "id": "dem-11-1",
+      "date": "2026-08-12",
+      "procedure": "bread-fold-r1",
+      "group_size": 23,
+      "submitted": true,
+      "stock_limit": 8,
+      "requested": 18,
+      "served": 8,
+      "disposition": "held",
+      "known_at": "2026-08-12T08:00:00"
+    },
+    {
+      "id": "dem-11-2",
+      "date": "2026-08-12",
+      "procedure": "harvest-display",
+      "group_size": 7,
+      "submitted": true,
+      "stock_limit": 16,
+      "requested": 19,
+      "served": 16,
+      "disposition": "held",
+      "known_at": "2026-08-12T08:00:00"
+    },
+    {
+      "id": "dem-12-0",
+      "date": "2026-08-13",
+      "procedure": "bread-fold-r0",
+      "group_size": 18,
+      "submitted": true,
+      "stock_limit": 8,
+      "requested": 18,
+      "served": 8,
+      "disposition": "held",
+      "known_at": "2026-08-13T08:00:00"
+    },
+    {
+      "id": "dem-12-1",
+      "date": "2026-08-13",
+      "procedure": "bread-fold-r1",
+      "group_size": 26,
+      "submitted": true,
+      "stock_limit": 16,
+      "requested": 19,
+      "served": 16,
+      "disposition": "held",
+      "known_at": "2026-08-13T08:00:00"
+    },
+    {
+      "id": "dem-12-2",
+      "date": "2026-08-13",
+      "procedure": "harvest-display",
+      "group_size": 10,
+      "submitted": true,
+      "stock_limit": 24,
+      "requested": 20,
+      "served": 20,
+      "disposition": "substituted",
+      "known_at": "2026-08-13T08:00:00"
+    },
+    {
+      "id": "dem-13-0",
+      "date": "2026-08-14",
+      "procedure": "bread-fold-r0",
+      "group_size": 21,
+      "submitted": true,
+      "stock_limit": 16,
+      "requested": 19,
+      "served": 16,
+      "disposition": "held",
+      "known_at": "2026-08-14T08:00:00"
+    },
+    {
+      "id": "dem-13-1",
+      "date": "2026-08-14",
+      "procedure": "bread-fold-r1",
+      "group_size": 29,
+      "submitted": true,
+      "stock_limit": 24,
+      "requested": 20,
+      "served": 20,
+      "disposition": "substituted",
+      "known_at": "2026-08-14T08:00:00"
+    },
+    {
+      "id": "dem-13-2",
+      "date": "2026-08-14",
+      "procedure": "harvest-display",
+      "group_size": 13,
+      "submitted": true,
+      "stock_limit": 8,
+      "requested": 21,
+      "served": 8,
+      "disposition": "held",
+      "known_at": "2026-08-14T08:00:00"
+    },
+    {
+      "id": "dem-14-0",
+      "date": "2026-08-15",
+      "procedure": "bread-fold-r0",
+      "group_size": 24,
+      "submitted": true,
+      "stock_limit": 24,
+      "requested": 20,
+      "served": 20,
+      "disposition": "substituted",
+      "known_at": "2026-08-15T08:00:00"
+    },
+    {
+      "id": "dem-14-1",
+      "date": "2026-08-15",
+      "procedure": "bread-fold-r1",
+      "group_size": 8,
+      "submitted": true,
+      "stock_limit": 8,
+      "requested": 21,
+      "served": 8,
+      "disposition": "held",
+      "known_at": "2026-08-15T08:00:00"
+    },
+    {
+      "id": "dem-14-2",
+      "date": "2026-08-15",
+      "procedure": "harvest-display",
+      "group_size": 16,
+      "submitted": true,
+      "stock_limit": 16,
+      "requested": 22,
+      "served": 16,
+      "disposition": "held",
+      "known_at": "2026-08-15T08:00:00"
+    },
+    {
+      "id": "dem-15-0",
+      "date": "2026-08-16",
+      "procedure": "bread-fold-r0",
+      "group_size": 27,
+      "submitted": true,
+      "stock_limit": 8,
+      "requested": 21,
+      "served": 8,
+      "disposition": "held",
+      "known_at": "2026-08-16T08:00:00"
+    },
+    {
+      "id": "dem-15-1",
+      "date": "2026-08-16",
+      "procedure": "bread-fold-r1",
+      "group_size": 11,
+      "submitted": true,
+      "stock_limit": 16,
+      "requested": 22,
+      "served": 16,
+      "disposition": "held",
+      "known_at": "2026-08-16T08:00:00"
+    },
+    {
+      "id": "dem-15-2",
+      "date": "2026-08-16",
+      "procedure": "harvest-display",
+      "group_size": 19,
+      "submitted": true,
+      "stock_limit": 24,
+      "requested": 23,
+      "served": 23,
+      "disposition": "held",
+      "known_at": "2026-08-16T08:00:00"
+    },
+    {
+      "id": "dem-16-0",
+      "date": "2026-08-17",
+      "procedure": "bread-fold-r0",
+      "group_size": 6,
+      "submitted": true,
+      "stock_limit": 16,
+      "requested": 22,
+      "served": 16,
+      "disposition": "held",
+      "known_at": "2026-08-17T08:00:00"
+    },
+    {
+      "id": "dem-16-1",
+      "date": "2026-08-17",
+      "procedure": "bread-fold-r1",
+      "group_size": 14,
+      "submitted": true,
+      "stock_limit": 24,
+      "requested": 23,
+      "served": 23,
+      "disposition": "held",
+      "known_at": "2026-08-17T08:00:00"
+    },
+    {
+      "id": "dem-16-2",
+      "date": "2026-08-17",
+      "procedure": "harvest-display",
+      "group_size": 22,
+      "submitted": true,
+      "stock_limit": 8,
+      "requested": 24,
+      "served": 8,
+      "disposition": "held",
+      "known_at": "2026-08-17T08:00:00"
+    },
+    {
+      "id": "dem-17-0",
+      "date": "2026-08-18",
+      "procedure": "bread-fold-r0",
+      "group_size": 9,
+      "submitted": true,
+      "stock_limit": 24,
+      "requested": 23,
+      "served": 23,
+      "disposition": "held",
+      "known_at": "2026-08-18T08:00:00"
+    },
+    {
+      "id": "dem-17-1",
+      "date": "2026-08-18",
+      "procedure": "bread-fold-r1",
+      "group_size": 17,
+      "submitted": true,
+      "stock_limit": 8,
+      "requested": 24,
+      "served": 8,
+      "disposition": "held",
+      "known_at": "2026-08-18T08:00:00"
+    },
+    {
+      "id": "dem-17-2",
+      "date": "2026-08-18",
+      "procedure": "harvest-display",
+      "group_size": 25,
+      "submitted": true,
+      "stock_limit": 16,
+      "requested": 25,
+      "served": 16,
+      "disposition": "held",
+      "known_at": "2026-08-18T08:00:00"
+    },
+    {
+      "id": "dem-18-0",
+      "date": "2026-08-19",
+      "procedure": "bread-fold-r0",
+      "group_size": 12,
+      "submitted": false,
+      "stock_limit": 8,
+      "requested": null,
+      "served": null,
+      "disposition": "cancelled",
+      "known_at": "2026-08-19T08:00:00"
+    },
+    {
+      "id": "dem-18-1",
+      "date": "2026-08-19",
+      "procedure": "bread-fold-r1",
+      "group_size": 20,
+      "submitted": false,
+      "stock_limit": 16,
+      "requested": null,
+      "served": null,
+      "disposition": "cancelled",
+      "known_at": "2026-08-19T08:00:00"
+    },
+    {
+      "id": "dem-18-2",
+      "date": "2026-08-19",
+      "procedure": "harvest-display",
+      "group_size": 28,
+      "submitted": false,
+      "stock_limit": 24,
+      "requested": null,
+      "served": null,
+      "disposition": "cancelled",
+      "known_at": "2026-08-19T08:00:00"
+    },
+    {
+      "id": "dem-19-0",
+      "date": "2026-08-20",
+      "procedure": "bread-fold-r0",
+      "group_size": 15,
+      "submitted": true,
+      "stock_limit": 16,
+      "requested": 25,
+      "served": 16,
+      "disposition": "held",
+      "known_at": "2026-08-20T08:00:00"
+    },
+    {
+      "id": "dem-19-1",
+      "date": "2026-08-20",
+      "procedure": "bread-fold-r1",
+      "group_size": 23,
+      "submitted": true,
+      "stock_limit": 24,
+      "requested": 26,
+      "served": 24,
+      "disposition": "held",
+      "known_at": "2026-08-20T08:00:00"
+    },
+    {
+      "id": "dem-19-2",
+      "date": "2026-08-20",
+      "procedure": "harvest-display",
+      "group_size": 7,
+      "submitted": true,
+      "stock_limit": 8,
+      "requested": 27,
+      "served": 8,
+      "disposition": "substituted",
+      "known_at": "2026-08-20T08:00:00"
+    },
+    {
+      "id": "dem-20-0",
+      "date": "2026-08-21",
+      "procedure": "bread-fold-r0",
+      "group_size": 18,
+      "submitted": true,
+      "stock_limit": 24,
+      "requested": 26,
+      "served": 24,
+      "disposition": "held",
+      "known_at": "2026-08-21T08:00:00"
+    },
+    {
+      "id": "dem-20-1",
+      "date": "2026-08-21",
+      "procedure": "bread-fold-r1",
+      "group_size": 26,
+      "submitted": true,
+      "stock_limit": 8,
+      "requested": 27,
+      "served": 8,
+      "disposition": "substituted",
+      "known_at": "2026-08-21T08:00:00"
+    },
+    {
+      "id": "dem-20-2",
+      "date": "2026-08-21",
+      "procedure": "harvest-display",
+      "group_size": 10,
+      "submitted": true,
+      "stock_limit": 16,
+      "requested": 28,
+      "served": 16,
+      "disposition": "held",
+      "known_at": "2026-08-21T08:00:00"
+    },
+    {
+      "id": "dem-21-0",
+      "date": "2026-08-22",
+      "procedure": "bread-fold-r0",
+      "group_size": 21,
+      "submitted": true,
+      "stock_limit": 8,
+      "requested": 27,
+      "served": 8,
+      "disposition": "substituted",
+      "known_at": "2026-08-22T08:00:00"
+    },
+    {
+      "id": "dem-21-1",
+      "date": "2026-08-22",
+      "procedure": "bread-fold-r1",
+      "group_size": 29,
+      "submitted": true,
+      "stock_limit": 16,
+      "requested": 28,
+      "served": 16,
+      "disposition": "held",
+      "known_at": "2026-08-22T08:00:00"
+    },
+    {
+      "id": "dem-21-2",
+      "date": "2026-08-22",
+      "procedure": "harvest-display",
+      "group_size": 13,
+      "submitted": true,
+      "stock_limit": 24,
+      "requested": 29,
+      "served": 24,
+      "disposition": "held",
+      "known_at": "2026-08-22T08:00:00"
+    },
+    {
+      "id": "dem-22-0",
+      "date": "2026-08-23",
+      "procedure": "bread-fold-r0",
+      "group_size": 24,
+      "submitted": true,
+      "stock_limit": 16,
+      "requested": 28,
+      "served": 16,
+      "disposition": "held",
+      "known_at": "2026-08-23T08:00:00"
+    },
+    {
+      "id": "dem-22-1",
+      "date": "2026-08-23",
+      "procedure": "bread-fold-r1",
+      "group_size": 8,
+      "submitted": true,
+      "stock_limit": 24,
+      "requested": 29,
+      "served": 24,
+      "disposition": "held",
+      "known_at": "2026-08-23T08:00:00"
+    },
+    {
+      "id": "dem-22-2",
+      "date": "2026-08-23",
+      "procedure": "harvest-display",
+      "group_size": 16,
+      "submitted": true,
+      "stock_limit": 8,
+      "requested": 30,
+      "served": 8,
+      "disposition": "held",
+      "known_at": "2026-08-23T08:00:00"
+    },
+    {
+      "id": "dem-23-0",
+      "date": "2026-08-24",
+      "procedure": "bread-fold-r0",
+      "group_size": 27,
+      "submitted": true,
+      "stock_limit": 24,
+      "requested": 29,
+      "served": 24,
+      "disposition": "held",
+      "known_at": "2026-08-24T08:00:00"
+    },
+    {
+      "id": "dem-23-1",
+      "date": "2026-08-24",
+      "procedure": "bread-fold-r1",
+      "group_size": 11,
+      "submitted": true,
+      "stock_limit": 8,
+      "requested": 30,
+      "served": 8,
+      "disposition": "held",
+      "known_at": "2026-08-24T08:00:00"
+    },
+    {
+      "id": "dem-23-2",
+      "date": "2026-08-24",
+      "procedure": "harvest-display",
+      "group_size": 19,
+      "submitted": true,
+      "stock_limit": 16,
+      "requested": 6,
+      "served": 6,
+      "disposition": "held",
+      "known_at": "2026-08-24T08:00:00"
+    },
+    {
+      "id": "dem-24-0",
+      "date": "2026-08-25",
+      "procedure": "bread-fold-r0",
+      "group_size": 6,
+      "submitted": true,
+      "stock_limit": 8,
+      "requested": 30,
+      "served": 8,
+      "disposition": "held",
+      "known_at": "2026-08-25T08:00:00"
+    },
+    {
+      "id": "dem-24-1",
+      "date": "2026-08-25",
+      "procedure": "bread-fold-r1",
+      "group_size": 14,
+      "submitted": true,
+      "stock_limit": 16,
+      "requested": 6,
+      "served": 6,
+      "disposition": "held",
+      "known_at": "2026-08-25T08:00:00"
+    },
+    {
+      "id": "dem-24-2",
+      "date": "2026-08-25",
+      "procedure": "harvest-display",
+      "group_size": 22,
+      "submitted": true,
+      "stock_limit": 24,
+      "requested": 7,
+      "served": 7,
+      "disposition": "held",
+      "known_at": "2026-08-25T08:00:00"
+    },
+    {
+      "id": "dem-25-0",
+      "date": "2026-08-26",
+      "procedure": "bread-fold-r0",
+      "group_size": 9,
+      "submitted": true,
+      "stock_limit": 16,
+      "requested": 6,
+      "served": 6,
+      "disposition": "held",
+      "known_at": "2026-08-26T08:00:00"
+    },
+    {
+      "id": "dem-25-1",
+      "date": "2026-08-26",
+      "procedure": "bread-fold-r1",
+      "group_size": 17,
+      "submitted": true,
+      "stock_limit": 24,
+      "requested": 7,
+      "served": 7,
+      "disposition": "held",
+      "known_at": "2026-08-26T08:00:00"
+    },
+    {
+      "id": "dem-25-2",
+      "date": "2026-08-26",
+      "procedure": "harvest-display",
+      "group_size": 25,
+      "submitted": true,
+      "stock_limit": 8,
+      "requested": 8,
+      "served": 8,
+      "disposition": "held",
+      "known_at": "2026-08-26T08:00:00"
+    },
+    {
+      "id": "dem-26-0",
+      "date": "2026-08-27",
+      "procedure": "bread-fold-r0",
+      "group_size": 12,
+      "submitted": true,
+      "stock_limit": 24,
+      "requested": 7,
+      "served": 7,
+      "disposition": "held",
+      "known_at": "2026-08-27T08:00:00"
+    },
+    {
+      "id": "dem-26-1",
+      "date": "2026-08-27",
+      "procedure": "bread-fold-r1",
+      "group_size": 20,
+      "submitted": true,
+      "stock_limit": 8,
+      "requested": 8,
+      "served": 8,
+      "disposition": "held",
+      "known_at": "2026-08-27T08:00:00"
+    },
+    {
+      "id": "dem-26-2",
+      "date": "2026-08-27",
+      "procedure": "harvest-display",
+      "group_size": 28,
+      "submitted": true,
+      "stock_limit": 16,
+      "requested": 9,
+      "served": 9,
+      "disposition": "substituted",
+      "known_at": "2026-08-27T08:00:00"
+    },
+    {
+      "id": "dem-27-0",
+      "date": "2026-08-28",
+      "procedure": "bread-fold-r0",
+      "group_size": 15,
+      "submitted": false,
+      "stock_limit": 8,
+      "requested": null,
+      "served": null,
+      "disposition": "cancelled",
+      "known_at": "2026-08-28T08:00:00"
+    },
+    {
+      "id": "dem-27-1",
+      "date": "2026-08-28",
+      "procedure": "bread-fold-r1",
+      "group_size": 23,
+      "submitted": false,
+      "stock_limit": 16,
+      "requested": null,
+      "served": null,
+      "disposition": "cancelled",
+      "known_at": "2026-08-28T08:00:00"
+    },
+    {
+      "id": "dem-27-2",
+      "date": "2026-08-28",
+      "procedure": "harvest-display",
+      "group_size": 7,
+      "submitted": false,
+      "stock_limit": 24,
+      "requested": null,
+      "served": null,
+      "disposition": "cancelled",
+      "known_at": "2026-08-28T08:00:00"
+    }
+  ],
+  "component_specs": [
+    {
+      "part": "board-a",
+      "fits": [
+        "r1",
+        "r0"
+      ]
+    },
+    {
+      "part": "press-a",
+      "fits": [
+        "r1"
+      ]
+    },
+    {
+      "part": "board-b",
+      "fits": [
+        "r0"
+      ]
+    },
+    {
+      "part": "press-b",
+      "fits": [
+        "r0",
+        "r1"
+      ]
+    },
+    {
+      "part": "board-c",
+      "fits": [
+        "r1"
+      ]
+    }
+  ],
+  "new_courses": [
+    {
+      "id": "clinic-a",
+      "procedure": "bread-fold-r1",
+      "start": "09:45",
+      "end": "10:30",
+      "min_groups": 1,
+      "seats_per_assembly": 8,
+      "alternatives": [
+        "r1",
+        "r0"
+      ]
+    },
+    {
+      "id": "clinic-b",
+      "procedure": "bread-fold-r1",
+      "start": "10:05",
+      "end": "10:50",
+      "min_groups": 1,
+      "seats_per_assembly": 8,
+      "alternatives": [
+        "r1",
+        "r0"
+      ]
+    },
+    {
+      "id": "clinic-c",
+      "procedure": "bread-fold-r0",
+      "start": "11:05",
+      "end": "11:45",
+      "min_groups": 1,
+      "seats_per_assembly": 8,
+      "alternatives": [
+        "r0"
+      ]
+    }
+  ],
+  "components_movements": [
+    {
+      "id": "return-a",
+      "known_at": "08:50",
+      "box": "blue",
+      "parts": [
+        "board-a",
+        "press-b"
+      ],
+      "ready_at": "10:25"
+    },
+    {
+      "id": "return-b",
+      "known_at": "09:25",
+      "box": "red",
+      "parts": [
+        "board-b",
+        "press-a"
+      ],
+      "ready_at": "09:40"
+    },
+    {
+      "id": "inspect-a",
+      "known_at": "10:20",
+      "parts": [
+        "board-b"
+      ],
+      "ready_at": null,
+      "condition": "damaged"
+    },
+    {
+      "id": "return-c",
+      "known_at": "10:29",
+      "box": "blue",
+      "parts": [
+        "board-c"
+      ],
+      "ready_at": "10:45"
+    }
+  ],
+  "confirmations": [
+    {
+      "id": "held-a",
+      "course": "clinic-a",
+      "parts": [
+        "board-b",
+        "press-b"
+      ],
+      "from_time": "09:45",
+      "to_time": "10:30",
+      "known_at": "08:40"
+    }
+  ],
+  "requests_today": [
+    {
+      "id": "order-new01",
+      "course": "clinic-b",
+      "requested_people": 16
+    },
+    {
+      "id": "order-new02",
+      "course": "clinic-c",
+      "requested_people": 8
+    }
+  ],
+  "fulfillment": [
+    {
+      "confirmation": "held-a",
+      "arrived_people": 8,
+      "served_people": 4,
+      "known_at": "10:50"
+    }
+  ]
+}
