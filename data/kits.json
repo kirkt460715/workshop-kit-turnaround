@@ -1,0 +1,9 @@
+{
+  "format_version": 1,
+  "kits": [{"id":"mold-set-a","parts":["board-a","press-a"],"procedures":["bread-fold-r1"],"cleaning_minutes":20},{"id":"mold-set-b","parts":["board-b","press-b"],"procedures":["bread-fold-r0"],"cleaning_minutes":45},{"id":"harvest-frame-a","parts":["frame-a","clip-a"],"procedures":["harvest-display"],"cleaning_minutes":15}],
+  "parts": [{"id":"board-a","condition":"ready"},{"id":"press-a","condition":"ready"},{"id":"board-b","condition":"inspection"},{"id":"press-b","condition":"ready"},{"id":"frame-a","condition":"ready"},{"id":"clip-a","condition":"missing"}],
+  "courses": [{"id":"course-01","procedure":"bread-fold-r1","period":"09:30-10:30","group_size":18,"compatible_substitutions":["mold-set-b"]},{"id":"course-02","procedure":"bread-fold-r1","period":"10:00-11:00","group_size":14,"compatible_substitutions":["mold-set-b"]},{"id":"course-03","procedure":"harvest-display","period":"11:00-11:45","group_size":12,"compatible_substitutions":[]}],
+  "reservations": [{"id":"reservation-01","course":"course-01","kit":"mold-set-a","status":"confirmed"},{"id":"reservation-02","course":"course-02","kit":"mold-set-a","status":"requested"},{"id":"reservation-03","course":"course-03","kit":"harvest-frame-a","status":"confirmed"}],
+  "returns": [{"id":"return-01","kit":"mold-set-a","at":"10:40","parts":["board-a","press-a"],"cleaning_complete":"11:00"},{"id":"return-02","kit":"harvest-frame-a","at":"11:50","parts":["frame-a"],"cleaning_complete":null}],
+  "unserved": [{"id":"need-01","course":"course-02","requested":14,"provided":0,"reason":"inventory"}]
+}
